@@ -1,5 +1,4 @@
 <head>
-
    <meta charset="utf-8">
    <title>Radio GenAp</title>
    <meta name="theme-color" content="rgba(9,15,25,0.6)" />
@@ -24,21 +23,41 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
    <!-- Favicons -->
-   <link rel="shortcut icon" href="" > 
-    
+   <link rel="shortcut icon" href="">
+
+   <!-- Custom Styles -->
+   <style>
+      html, body {
+         background-image: url(img/bg-player-hd.jpg);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+      }
+
+      .footer-social {
+         list-style: none; /* Elimina los puntos de la lista */
+         padding: 0; /* Elimina el padding */
+         display: flex; /* Alinea los íconos en una fila */
+         justify-content: center; /* Centra los íconos */
+      }
+
+      .footer-social li {
+         margin: 0 15px; /* Espacio entre los íconos */
+      }
+
+      .footer-social a {
+         color: white; /* Cambia el color de los íconos, si es necesario */
+         font-size: 40px; /* Cambia el tamaño de los íconos */
+         transition: transform 0.3s; /* Agrega una transición suave */
+      }
+
+      .footer-social a:hover {
+         transform: scale(1.2); /* Efecto de hover para agrandar el ícono */
+      }
+   </style>
 </head>
 
-<style>
-	html, body {
-		background-image: url(img/bg-player-hd.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
-</style>
-
 <body>
-
 <center>
 <div id="lunaradio" style='width:100%; height: calc(100% - 85px); border: none;'>
 </div>
@@ -108,7 +127,6 @@ $("#lunaradio").lunaradio({
 	usestreamcorsproxy: "false", 
 	corsproxy: "https://corsradio.herokuapp.com/index.php?q=",
 	autoplay:true,
-        
 });
 </script>
 
