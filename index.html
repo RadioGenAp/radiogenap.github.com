@@ -1,136 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-   <meta charset="utf-8">
-   <title>Radio GenAp</title>
-   <meta name="theme-color" content="rgba(9,15,25,0.6)" />
-   <meta property="og:image" content="img/redes.png"/>
-   <meta property="og:image:type" content="image/png"/>
-   <meta property="og:image:width" content="600"/>
-   <meta property="og:image:height" content="360"/>
-   <meta property="og:title" content="Radio GenAp"/>
-   <meta property="og:description" content="Radio GenAp Cristiana"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Radio GenAp</title>
+    <meta name="theme-color" content="rgba(9,15,25,0.6)" />
+    <meta property="og:image" content="img/redes.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="360" />
+    <meta property="og:title" content="Radio GenAp" />
+    <meta property="og:description" content="Radio GenAp Cristiana" />
 
-   <!-- Mobile Specific Metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style-hd.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="manifest" href="LINK URL" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <!-- CSS -->
-   <link rel="stylesheet" href="css/base.css">
-   <link rel="stylesheet" href="css/style-hd.css">
-   <link rel="stylesheet" href="css/vendor.css">
-   <link rel="stylesheet" href="css/main.css">
-   <link href='LINK URL' rel='manifest'/>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="">
 
-   <!-- Font Awesome CDN -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom Styles -->
+    <style>
+        html,
+        body {
+            background-image: url(img/bg-player-hd.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0; /* Eliminar márgenes predeterminados */
+            padding: 0; /* Eliminar padding predeterminado */
+        }
 
-   <!-- Favicons -->
-   <link rel="shortcut icon" href="">
+        .footer-social {
+            list-style: none; /* Elimina los puntos de la lista */
+            padding: 0; /* Elimina el padding */
+            display: flex; /* Alinea los íconos en una fila */
+            justify-content: center; /* Centra los íconos */
+        }
 
-   <!-- Custom Styles -->
-   <style>
-      html, body {
-         background-image: url(img/bg-player-hd.jpg);
-         background-repeat: no-repeat;
-         background-position: center;
-         background-size: cover;
-      }
+        .footer-social li {
+            margin: 0 10px; /* Espacio entre los íconos */
+        }
 
-      .footer-social {
-         list-style: none; /* Elimina los puntos de la lista */
-         padding: 0; /* Elimina el padding */
-         display: flex; /* Alinea los íconos en una fila */
-         justify-content: center; /* Centra los íconos */
-      }
+        .footer-social a {
+            color: white; /* Cambia el color de los íconos, si es necesario */
+            font-size: 20px; /* Cambia el tamaño de los íconos */
+            transition: transform 0.3s; /* Agrega una transición suave */
+        }
 
-      .footer-social li {
-         margin: 0 10px; /* Espacio entre los íconos */
-      }
+        .footer-social a:hover {
+            transform: scale(1.2); /* Efecto de hover para agrandar el ícono */
+        }
 
-      .footer-social a {
-         color: white; /* Cambia el color de los íconos, si es necesario */
-         font-size: 20px; /* Cambia el tamaño de los íconos */
-         transition: transform 0.3s; /* Agrega una transición suave */
-      }
-
-      .footer-social a:hover {
-         transform: scale(1.2); /* Efecto de hover para agrandar el ícono */
-      }
-   </style>
+        #lunaradio {
+            width: 100%;
+            height: calc(100% - 85px);
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
-<center>
-<div id="lunaradio" style='width:100%; height: calc(100% - 85px); border: none;'>
-</div>
-</center>
+    <div id="lunaradio"></div>
 
-<!-- footer -->
-<footer class="group">         
-   <ul class="footer-social">
-      <li><a href="https://www.facebook.com/RadioGenApCristiana" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="https://www.instagram.com/radiogenapcristiana" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://api.whatsapp.com/send?phone=+522361079311&text=Dios%20Les%20Bendiga%20?%C2%A1%20Tengo%20una%20petici%C3%B3n" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-      <li><a href="https://www.youtube.com/@luisbuenotv" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a></li>
-      <li><a href="https://play.google.com/store/apps/details?id=radiogenap.cristiana&pcampaignid=web_share" title="Android" target="_blank"><i class="fab fa-android"></i></a></li>
-      <li><a href="https://www.tiktok.com/@radiogenapcristiana" title="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a></li>
-   </ul>   
+    <!-- Footer -->
+    <footer class="group">
+        <ul class="footer-social">
+            <li><a href="https://www.facebook.com/RadioGenApCristiana" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/radiogenapcristiana" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+522361079311&text=Dios%20Les%20Bendiga%20?%C2%A1%20Tengo%20una%20petici%C3%B3n" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://www.youtube.com/@luisbuenotv" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=radiogenap.cristiana&pcampaignid=web_share" title="Android" target="_blank"><i class="fab fa-android"></i></a></li>
+            <li><a href="https://www.tiktok.com/@radiogenapcristiana" title="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+        </ul>
 
-   <ul class="footer-copyright">
-      <li>&copy;LuBuDesign +522361079311</li>
-   </ul>  
-</footer> 
+        <ul class="footer-copyright">
+            <li>&copy; LuBuDesign +522361079311</li>
+        </ul>
+    </footer>
 
-<div id="preloader"> 
-   <div id="loader"></div>
-</div> 
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
 
-<!-- Scripts -->
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/jquery-migrate-1.2.1.min.js"></script>
-<script src="js/jquery.placeholder.min.js"></script>
-<script src="js/main.js"></script> 
-<script src="js/lunaradio.min.js"></script>
+    <!-- Scripts -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lunaradio.min.js"></script>
 
-<script type="text/javascript">
-$("#lunaradio").lunaradio({
-	userinterface: "big",
-	backgroundcolor: "rgba(9,15,25,0.8)",
-	fontcolor: "#ffffff",
-	hightlightcolor: "#b60c0f",
-	fontname: "Montserrat",
-	googlefont: "Montserrat:300",
-	fontratio: "0.5",
-	radioname: "Radio GenAp Cristiana",
-	scroll: "false",
-	coverimage: "https://i.postimg.cc/8kxbv4NY/Logo-Gen-Ap.png",
-	usevisualizer: "real",
-	coverstyle: "circle",
-	visualizertype: "2",
-	multicolorvisualizer: "true",
-	color1: "#00FF00",
-	color2: "#ffff00",
-	color3: "#FF1F6F",
-	color4: "#FF1F6F",
-	visualizeropacity: "0.5",
-	itunestoken: "1000lIPN",
-	metadatatechnic: "creativo-agencia-metadato",
-	ownmetadataurl: "",
-	streamurl: "https://stream.zeno.fm/ajnldia1z5utv",
-	streamtype: "shoutcast2",
-	icecastmountpoint: "/radio.mp3",
-	radiozenoid: "ajnldia1z5utv",
-	shoutcastpath: "/stream",
-	shoutcastid: "1",
-	streamsuffix: "",
-	metadatainterval: "20000",
-	volume: "100",
-	debug: "false",
-	usestreamcorsproxy: "false", 
-	corsproxy: "https://corsradio.herokuapp.com/index.php?q=",
-	autoplay:true,
-});
-</script>
+    <script type="text/javascript">
+        $("#lunaradio").lunaradio({
+            userinterface: "big",
+            backgroundcolor: "rgba(9,15,25,0.8)",
+            fontcolor: "#ffffff",
+            hightlightcolor: "#b60c0f",
+            fontname: "Montserrat",
+            googlefont: "Montserrat:300",
+            fontratio: "0.5",
+            radioname: "Radio GenAp Cristiana",
+            scroll: "false",
+            coverimage: "https://i.postimg.cc/8kxbv4NY/Logo-Gen-Ap.png",
+            usevisualizer: "real",
+            coverstyle: "circle",
+            visualizertype: "2",
+            multicolorvisualizer: "true",
+            color1: "#00FF00",
+            color2: "#ffff00",
+            color3: "#FF1F6F",
+            color4: "#FF1F6F",
+            visualizeropacity: "0.5",
+            itunestoken: "1000lIPN",
+            metadatatechnic: "creativo-agencia-metadato",
+            ownmetadataurl: "",
+            streamurl: "https://stream.zeno.fm/ajnldia1z5utv",
+            streamtype: "shoutcast2",
+            icecastmountpoint: "/radio.mp3",
+            radiozenoid: "ajnldia1z5utv",
+            shoutcastpath: "/stream",
+            shoutcastid: "1",
+            streamsuffix: "",
+            metadatainterval: "20000",
+            volume: "100",
+            debug: "false",
+            usestreamcorsproxy: "false",
+            corsproxy: "https://corsradio.herokuapp.com/index.php?q=",
+            autoplay: true,
+        });
+    </script>
 
-<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" defer=""></script>
-
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" defer=""></script>
 </body>
+
 </html>
